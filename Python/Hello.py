@@ -1,5 +1,5 @@
 # print / dir / help /int / float /bool /
-# bool / Nonetype / str / input
+# bool / Nonetype / str / input / len
 
 default_domain = 'goit.ua'
 
