@@ -1,6 +1,2 @@
-# print / dir / help /int / float /bool /
-# bool / Nonetype / str / input / len
-text = """
-asdjkhjfsdjkasfklkasdasjkfdkhafsdhkl
-"""
-words_count = text.count('')
+c = input("Enter your email: ")
+Print(type(c), 'тип зміної c')
