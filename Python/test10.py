@@ -1,7 +1,9 @@
-x = int(input("X: "))
-y = int(input("Y: "))
-while True:
-    user_input = input()
-    print(user_input)
-    if user_input == "exit":
-        break
+age = input("How old are you? ")
+try:
+    age = int(age)
+    if age >= 18:
+        print("You are adult.")
+    else:
+        print("You are infant")
+except ValueError:
+    print(f"{age} is not a number")
