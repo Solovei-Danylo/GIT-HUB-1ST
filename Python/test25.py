@@ -1,3 +1,4 @@
+<< << << < HEAD
 
 
 def invite_to_event(username=input("Your name? :")):
@@ -6,3 +7,22 @@ def invite_to_event(username=input("Your name? :")):
 
 invite_to_event()
 print(invite_to_event)
+== == == =
+count = 0
+while True:
+
+    count = count + 1
+    age = input("How old are u : ")
+    age = int(age)
+    try:
+        if age >= 18:
+            print("You are welcome !")
+        if age < 18:
+            print("Cannot enter for u, need be 18+ :")
+        if age == "":
+            print("Error")
+        if count >= 5:
+            break
+    except:
+        print("somes wrong!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+>>>>>> > 3c21ddc0a9a235fdd4c48370e6f0d0aba9f0d56e
