@@ -1,4 +1,3 @@
-<< << << < HEAD
 
 
 def invite_to_event(username=input("Your name? :")):
@@ -7,7 +6,6 @@ def invite_to_event(username=input("Your name? :")):
 
 invite_to_event()
 print(invite_to_event)
-== == == =
 count = 0
 while True:
 
@@ -25,4 +23,3 @@ while True:
             break
     except:
         print("somes wrong!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
->>>>>> > 3c21ddc0a9a235fdd4c48370e6f0d0aba9f0d56e
